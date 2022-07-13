@@ -1,9 +1,29 @@
+/*html styling*/
+
+html {
+	scroll-behavior: smooth;
+}
+
 /*body styling*/
 
 body {
-	background-color: black;
+	background-color: #581b98;
 	margin: 0;
-	padding: 0;
+	padding: 4rem 0 4rem 0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+
+}
+
+/*main tag styling*/
+
+main{
+	background-color: white;
+	padding-bottom: 14rem;
+	border-radius: 0.6rem;
+	width: 75rem;
 }
 
 /*navbar styling*/
@@ -11,7 +31,7 @@ body {
 .navbar {
 	display: flex ;
 	flex-direction: row;
-	justify-content: left;
+	justify-content: center;
 	height: 4rem;
 }
 
@@ -26,7 +46,7 @@ body {
 	color: black;
 	padding: 1rem 0 0 1rem;
 	font-size: 1.6rem;
-	color: white;
+	color: black;
 }
 
 
@@ -35,7 +55,7 @@ body {
 .navbar-nav {
 	list-style: none;
 	text-decoration: none;
-	margin-left: 48rem;
+	margin-left: 30rem;
 	margin-top: 1rem;
 }
 
@@ -46,7 +66,7 @@ body {
 	text-decoration: none;
 	float: left;
 	font-family: 'poppins', sans-serif;
-	color: white;
+	color: black;
 	padding: 0.4rem 1rem 0 1rem;
 }
 
@@ -56,15 +76,15 @@ body {
 	list-style: none;
 	text-decoration: none;
 	font-family: 'poppins', sans-serif;
-	color: white;
+	color: black;
 	padding: 0.6rem 0.6rem 0.6rem 0.6rem;
 	border-radius: 0.6rem;
 	font-size: 1rem;
 }
 
 .nav-link:hover {
-	background-color: grey;
-
+	background-color: black;
+	color: white;
 }
 
 /*heading styling*/
@@ -73,7 +93,7 @@ h1{
 	font-family: 'poppins', sans-serif;
 	text-align: center;
 	padding: 6rem 0rem 0rem 0rem;
-	color: white;
+	color: black;
 	font-size: 4rem;
 }
 
@@ -81,7 +101,7 @@ h2{
 	font-family: 'poppins', sans-serif;
 	text-align: center;
 	padding: 0rem 0rem 0rem 0rem;
-	color: white;
+	color: black;
 	font-size: 2rem;
 }
 
@@ -94,14 +114,15 @@ h2{
 	border-radius: 0.6rem;
 	border-width: 0.1rem;
 	border-style: solid;
-	border-color: grey;
-	color: white;
+	border-color: black;
+	color: black;
 	width: 20rem;
 	padding: 0.6rem 1rem 0.6rem 1rem;
 }
 
 .button:hover {
-	background-color: grey;
+	background-color: black;
+	color: white;
 }
 
 .button-2 {
@@ -111,15 +132,16 @@ h2{
 	border-radius: 0.6rem;
 	border-width: 0.1rem;
 	border-style: solid;
-	border-color: grey;
-	color: white;
+	border-color: black;
+	color: black;
 	padding: 0.6rem 1rem 0.6rem 1rem;
 	margin-top: 1rem;
 	width: 20rem;
 }
 
 .button-2:hover {
-	background-color: grey;
+	background-color: black;
+	color: white;
 }
 
 .button-adjust {
@@ -128,6 +150,253 @@ h2{
 	align-items: center;
 	flex-direction: column;
 	justify-content: space-evenly;
+}
+
+/*education section styling*/
+
+.section-1 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	margin-top: 20rem;
+	padding: 12rem 12rem 12rem 12rem;
+	background-color: white;
+	border-radius: 0.6rem;
+	width: 50rem;
+
+}
+
+.h1-edu {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 6rem 0rem 0rem 0rem;
+	color: black;
+	font-size: 4rem;
+}
+
+.img-1 {
+	height: 10rem;
+	width: 10rem;
+}
+
+.h2-bca {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 0rem 0rem 0rem 0rem;
+	color: black;
+	font-size: 2rem;
+}
+
+.p-college {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 0rem 0rem 0rem 0rem;
+	color: black;
+}
+
+.button-3 {
+	text-align: center;
+	font-family: 'poppins', sans-serif;
+	text-decoration: none;
+	border-radius: 0.6rem;
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: black;
+	color: black;
+	width: 20rem;
+	margin-top: 2rem;
+	padding: 0.6rem 1rem 0.6rem 1rem;
+}
+
+.button-3:hover {
+	background-color: black;
+	color: white;
+}
+
+/*skills section styling*/
+
+.section-2 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 12rem 12rem 12rem 12rem;
+	background-color: white;
+	width: 50rem;
+	margin-top: 20rem;
+	border-radius: 0.6rem;
+}
+
+.h1-skills {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 6rem 0rem 0rem 0rem;
+	color: black;
+	font-size: 4rem;
+}
+
+.img-2 {
+	height: 10rem;
+	width: 10rem;
+}
+
+.h2-skills {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 0rem 0rem 0rem 0rem;
+	color: black;
+	font-size: 2rem;
+}
+
+.p-skills {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 0rem 0rem 0rem 0rem;
+	color: black;
+}
+
+.button-4 {
+	text-align: center;
+	font-family: 'poppins', sans-serif;
+	text-decoration: none;
+	border-radius: 0.6rem;
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: black;
+	color: black;
+	width: 20rem;
+	margin-top: 2rem;
+	padding: 0.6rem 1rem 0.6rem 1rem;
+}
+
+.button-4:hover {
+	background-color: black;
+	color: white;
+}
+
+/*project section styling*/
+
+.section-3 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 12rem 12rem 12rem 12rem;
+	background-color: white;
+	width: 50rem;
+	margin-top: 20rem;
+	border-radius: 0.6rem;
+
+}
+
+.h1-projects {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 6rem 0rem 0rem 0rem;
+	color: black;
+	font-size: 4rem;
+}
+
+.img-3 {
+	height: 10rem;
+	width: 10rem;
+}
+
+.h2-projects {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 0rem 0rem 0rem 0rem;
+	color: black;
+	font-size: 2rem;
+}
+
+.p-projects {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 0rem 0rem 0rem 0rem;
+	color: black;
+}
+
+.button-5 {
+	text-align: center;
+	font-family: 'poppins', sans-serif;
+	text-decoration: none;
+	border-radius: 0.6rem;
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: black;
+	color: black;
+	width: 20rem;
+	margin-top: 2rem;
+	padding: 0.6rem 1rem 0.6rem 1rem;
+}
+
+.button-5:hover {
+	background-color: black;
+	color: white;
+}
+
+/*certificate section styling*/
+
+.section-4 {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	padding: 12rem 12rem 12rem 12rem;
+	background-color: white;
+	width: 50rem;
+	margin-top: 20rem;
+	border-radius: 0.6rem;
+
+}
+
+.h1-certify {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 6rem 0rem 0rem 0rem;
+	color: black;
+	font-size: 4rem;
+}
+
+.img-4 {
+	height: 10rem;
+	width: 10rem;
+}
+
+.h2-certify {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 0rem 0rem 0rem 0rem;
+	color: black;
+	font-size: 2rem;
+}
+
+.p-certify {
+	font-family: 'poppins', sans-serif;
+	text-align: center;
+	padding: 0rem 0rem 0rem 0rem;
+	color: black;
+}
+
+.button-6 {
+	text-align: center;
+	font-family: 'poppins', sans-serif;
+	text-decoration: none;
+	border-radius: 0.6rem;
+	border-width: 0.1rem;
+	border-style: solid;
+	border-color: black;
+	color: black;
+	width: 20rem;
+	margin-top: 2rem;
+	padding: 0.6rem 1rem 0.6rem 1rem;
+}
+
+.button-6:hover {
+	background-color: black;
+	color: white;
 }
 
 /*responsivness*/
