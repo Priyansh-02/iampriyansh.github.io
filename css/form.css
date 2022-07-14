@@ -2,6 +2,8 @@
 
 html {
 	scroll-behavior: smooth;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
 }
 
 /*body styling*/
